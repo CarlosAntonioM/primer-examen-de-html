@@ -1,0 +1,332 @@
+
+
+
+#logo{
+    background-color:slategrey;
+}
+body{
+    background-image: url("../examen/imagen/0022.gif");
+    margin: 0px;
+}
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#header {
+
+    float:contour;
+    width: 10px;
+    height: 50px;
+    width: 10px;
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+
+}
+
+
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-image: url("../examen/imagen/blue.jpg");
+    color:white;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:black;
+    color:ghostwhite;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+#contenido{
+    float: left;
+    width: 290px;
+    height: 850px;
+    width: 1349px;
+}
+#izq{
+    border: 1px solid black;
+    background-color:azure;
+    float: left;
+    width: 290px;
+    height: 850px;
+    width: 308px;
+}
+
+#der{
+     border: 1px solid black;
+    background-color: azure;
+    float: right;
+    width: 290px;
+    height: 850px;
+    width: 308px;
+}
+#center{
+     border: 1px solid black;
+    background-color:gainsboro;
+    float:left;
+    width: 290px;
+    height: 850px;
+    width: 727px;
+}
+#pie{
+     border: 1px solid black;
+
+   float:left;
+   widht:290px;
+   height: 50px;
+   width:1349px;
+}
+.apartado{
+    font-family:sans-serif;
+    color: red;
+    font-size: 145%;
+    text-align: center;
+}
+caption{
+    text-align: center;
+}
+ #titulo{
+    text-align: center;
+}
+.noticias{
+    text-align: justify;
+}
+.notificcion{
+    text-align: center;
+    
+}
+.enlace{
+    text-align: center;
+    font-style:oblique;
+}
+.caja{
+   float: left;
+    width: 290px;
+    height: 270px;
+    width: 305px;
+} 
+
+#espacio{
+    float:left;
+    width: 290px;
+    height: 190px;
+    width: 14px;
+}
+
+#texto{
+    text-align:justify;
+    float:outside;
+    width: 290px;
+    height:190px;
+    width: 715px;
+    
+}
+th{
+    color: red;
+    font-size: 150%;
+}
+
+#espacioI{
+     float: left;
+    width: 290px;
+    height: 1050px;
+    width: 208px;
+    
+}
+
+#espacioC{
+     background-image: url("../examen/imagen/Galaxy.png");
+    float:left;
+    width: 290px;
+    height: 1050px;
+    width: 827px;
+}
+
+#espacioD{
+     float: right;
+    width: 290px;
+    height: 1050px;
+    width: 208px;
+    
+}
+
+#espacioIF{
+     float: left;
+    width: 290px;
+    height: 650px;
+    width: 208px;
+    
+}
+
+#espacioCF{
+     background-image: url("../examen/imagen/Galaxy.png");
+    float:left;
+    width: 290px;
+    height: 650px;
+    width: 827px;
+}
+
+#espacioDF{
+     float: right;
+    width: 290px;
+    height: 650px;
+    width: 208px;
+    
+}
+.vid{
+    border: 1px solid black;
+             
+              
+                text-align: center;
+               
+}
+
+.galeria{
+    border: 1px solid black;
+                border-collapse: collapse;
+                padding: 5px;
+                text-align: center;
+                width: 15%;
+}
+
+.efe:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+.efe2{
+    border: 5px solid #ccc;
+    float: left;
+    margin: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+ 
+.efe2:hover {
+    margin-top: 2px;
+}
+
+.efe3 {
+    margin: 20px;
+    border: 5px solid #eee;
+    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+ 
+.efe3:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+}
+
+.efe4:hover{
+    -webkit-transform: scale(.75);
+    -moz-transform: scale(.75);
+    -o-transform: scale(.75);
+    -ms-transform: scale(.75);
+    transform: scale(.75)
+}
+.efe5:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+.efe6:hover {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+}
+#espacioIG{
+     float: left;
+    width: 290px;
+    height: 1100px;
+    width: 208px;
+    
+}
+
+#espacioCG{
+     background-image: url("../examen/imagen/Galaxy.png");
+    float:left;
+    width: 290px;
+    height: 1100px;
+    width: 827px;
+}
+
+#espacioDG{
+     float: right;
+    width: 290px;
+    height: 1100px;
+    width: 208px;
+    
+}
+
+#tam{
+    font-size: 120%;
+}
+
+#espacioIC{
+     float: left;
+    width: 290px;
+    height: 650px;
+    width: 208px;
+    
+}
+
+#espacioCC{
+     background-image: url("../examen/imagen/Galaxy.png");
+    float:left;
+    width: 290px;
+    height: 650px;
+    width: 827px;
+}
+
+#espacioDC{
+     float: right;
+    width: 290px;
+    height: 650px;
+    width: 208px;
+    
+}
+
